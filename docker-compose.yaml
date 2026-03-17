@@ -35,9 +35,9 @@ services:
       - DB_HOST=mysql
       - DB_PORT=3306
       - DB_USER=root
-      - DB_PASSWORD=yourdbpassword
+      - DB_PASSWORD=yourdbrootpassword
       - DB_NAME=dreamvacations
-      - COUNTRIES_API_BASE_URL=https://restcountries.com/v3.1
+      - COUNTRIES_API_BASE_URL=https://restcountries.com/v4
     depends_on:
       mysql:
         condition: service_healthy

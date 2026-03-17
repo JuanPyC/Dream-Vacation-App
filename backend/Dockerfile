@@ -1,7 +1,6 @@
 # Use Node.js 24 on a Debian slim base for better native module compatibility
 FROM node:24-bookworm-slim
 
-
 # Set working directory
 WORKDIR /app
 
